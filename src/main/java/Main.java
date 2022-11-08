@@ -8,7 +8,12 @@ public class Main {
     }
     
     int sumOfNumbers(int n) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i <=n; n++) {
+            sum += i;
+
+        }
+        return sum;
     }
     
     // for Extra Credit
